@@ -1,1 +1,4 @@
-# Mario-Bros---RL
+# Mario-Bros-RL
+
+This project entails the development of an artificial intelligence agent named Mario, which uses reinforcement learning to master and complete the Super Mario game. The gaming environment has been emulated using Python's OpenAI Gym framework. Mario, the agent, operates as a Double Deep Q-Learning agent and has four primary functions: act, recall, cache, and learn.
+The act function is used to act upon the environment .The learn function is the agent's learning process, facilitated by a neural network architecture named MarioNet. MarioNet comprises two Convolutional Neural Networks (CNN): Q online and Q target, components of the Double Deep Q-Learning algorithm. Each CNN consists of three convolutional layers and two dense layers.The cache function serves to store Mario's experiences, while recall enables the agent to sample batches of experiences for exploitation during training. The model has been trained for 40,000 epochs and has a max score.
